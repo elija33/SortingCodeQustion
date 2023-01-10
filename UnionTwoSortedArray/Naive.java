@@ -14,7 +14,7 @@ public class Naive {
         Arrays.sort(totaarray);
         for(int i = 0; i < totaarray.length; i++){
             if(i == 0 || totaarray[i] != totaarray[i - 1]){
-                System.out.println(totaarray[i]);
+                System.out.print(totaarray[i]+ " ");
             }
         }
     }
