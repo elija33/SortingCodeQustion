@@ -18,9 +18,14 @@ public class EfficiSortTypeEle {
                 return;
 
             int temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
         }
     }
     public static void main(String[] args) {
-        
+        int array[] = {13, -12, 18, -10};
+        SortTypeEle(array);
+        for(int number : array)
+            System.out.print(number+ " ");
     }
 }
