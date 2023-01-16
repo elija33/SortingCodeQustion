@@ -3,7 +3,7 @@ package SortArrayThreeEle;
 public class EfficiArrayThreeElement {
     public static void SortThreeElement(int array[]){
         int left = 0;
-        int right = array.length;
+        int right = array.length-1;
         int mid = 0;
         while(mid <= right){
             switch(array[mid]){
