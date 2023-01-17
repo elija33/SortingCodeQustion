@@ -27,7 +27,7 @@ public class QuickSortLomutoPartition {
         }
     }
     public static void main(String[] args) {
-        int array[] = {8, 4, 7, 9, 3, 10, 5};
+        int array[] = {2, 8, 4, 1, 7, 9, 3, 10, 5};
         qSort(array, 0, array.length -1);
 
         for(int number : array)
